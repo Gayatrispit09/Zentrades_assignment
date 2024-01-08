@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js">
+
+    </script>
+
+</head>
+<body>
+
+<div class="container">
+    <img src="smartservlogo.jpeg" alt="Company Logo" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 20px;">
+    <h1><span class="green-text">SMART</span><span class="white-text">SERV</span></h1>
+    <form action="#" method="post" onsubmit="return validateForm()">
+        <input type="text" id="username" name="username" placeholder="Username (email)" required>
+        <div id="username-error" class="error-message"></div>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <div id="password-error" class="error-message"></div>
+        <button type="submit" class="login-btn">Login</button>
+    </form>
+    <a href="support@smartserv.io " class="forget-password">Forgot Your Password?</a>
+</div>
+
+
+
+</body>
+</html>
